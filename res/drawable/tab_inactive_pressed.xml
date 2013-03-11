@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:top="14px">
+        <nine-patch android:src="@drawable/btn_tabbar_active" />
+            </item>
+    <item android:bottom="87px" android:top="-9px">
+        <bitmap android:src="@drawable/tabtop_normal"/>
+
+            </item>
+</layer-list>

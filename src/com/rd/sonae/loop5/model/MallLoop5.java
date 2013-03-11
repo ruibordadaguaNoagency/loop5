@@ -74,16 +74,18 @@ public class MallLoop5 extends Mall {
         defaultTabs.add(UITabBar.TabType.Mall);
         defaultTabs.add(UITabBar.TabType.Map);
         defaultTabs.add(UITabBar.TabType.Search);
-        defaultTabs.add(UITabBar.TabType.Promotions); // defaultTabs.add(UITabBar.TabType.FoodBeverages);
+        defaultTabs.add(UITabBar.TabType.Promotions);
         defaultTabs.add(UITabBar.TabType.More);
 
         /* Hidden by Default */
         defaultTabs.add(UITabBar.TabType.Parking);
         defaultTabs.add(UITabBar.TabType.Events);
         defaultTabs.add(UITabBar.TabType.Feedback);
+        defaultTabs.add(UITabBar.TabType.FoodBeverages);
         defaultTabs.add(UITabBar.TabType.Services);
         defaultTabs.add(UITabBar.TabType.Card);
         defaultTabs.add(UITabBar.TabType.Social);
+
 
         /* Map Floors */
         addMap(-1, R.raw.level_l_1);
