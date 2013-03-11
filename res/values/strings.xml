@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Loop5</string>
+    <string name="mall_name">Loop5</string>
+
+        <!-- Services -->
+    <string name="servicesHeader">Im Loop5 stehen Ihnen diverse Services zur Verfügung, um Ihnen einen angenehmen Aufenthalt in unserem Haus zu gewährleisten:</string>
+    <string name="information">Loop5 Information</string>
+    <string name="informationDescription">Sie benötigen Informationen über die Geschäfte, Geschenkgutscheine oder möchten Anregungen und Tipps geben, dann besuchen Sie doch unsere Centre-Information in Ebene 0.</string>
+    <string name="pharmacy">Apotheke</string>
+    <string name="pharmacyDescription">(Ebene 0)</string>
+    <string name="diaperChanging">Babywickelraum</string>
+    <string name="diaperDescription">Im Wickelraum in der 2.Ebene befindet sich außerdem die Möglichkeit Ihr Baby zu stillen.\n(Ebene 1,2)</string>
+    <string name="wardrobe">Garderobe</string>
+    <string name="wardrobeDescription">Sie möchten entspannt einkaufen ohne Jacken, Mäntel, lästige Einkaufstaschen oder Reisegepäck?\nDann nutzen Sie unsere Centergarderobe.\nBekleidung  1,00 €\nTaschen  1,50 €\nKoffer / Reisetaschen  2,00 €\nim Erdgeschoss am Haupteingang\n(nur von Oktober bis März)</string>
+    <string name="atm">Geldautomaten</string>
+    <string name="atmDescription">(Ebenen -1, 0, 2)</string>
+    <string name="giftVouchers">Geschenkgutscheine</string>
+    <string name="giftVouchersDescription">Unsere Geschenkgutscheine erhalten Sie an der Kundeninformation im Erdgeschoss.</string>
+    <string name="giftWrapping">Geschenkverpackungsservice</string>
+    <string name="giftWrappingDescription">Schöner schenken mit NICI!\nNutzen Sie den Verpackungsservice von NICI in der 2.Etage direkt im NICI Shop. \nPapier oder Folienverpackungen erhalten Sie als NICI Kunde für 0,50 € oder als Fremdgeschenkverpackung für 2,50 €. \nSie möchten Ihr Geschenk außergewöhnlich verpacken? \nDann entscheiden Sie sich doch für eine Kugel-Verpackung mit Schleife, Konfetti und Flitter (NICI Kunden: 6,95 € und Fremdgeschenkverpackung 8,95 €) (2. Ebene) </string>
+    <string name="wlan">WLAN</string>
+    <string name="wlanDescription">(Ebene 2)</string>
+    <string name="childrenWC">Kindertoilette</string>
+    <string name="childrenWCDescription">(Ebene 1, 2)</string>
+    <string name="travelAgency">Reisebüros</string>
+    <string name="travelAgencyDescription">(Ebene 0, 2)</string>
+    <string name="infoStore">Berlin Infostore</string>
+    <string name="infoStoreDescription">(Ebene 0)</string>
+    <string name="dentist">Zahnarzt</string>
+    <string name="dentistDescription">(Ebene 3)</string>
+
+        <!-- Directions -->
+    <string name="directions1">Sie kommen mit dem Auto ins Loop5? Dank 1.600 Parkplätze in unserer Tiefgarage gibt es keine Probleme bei der Parkplatzsuche. Die Einfahrt zum Parkhaus finden Sie auf der Alexanderstraße.</string>
+    <string name="directions2">Kommen Sie mit den öffentlichen Verkehrsmitteln, haben Sie die Auswahl: Ob Bus, Tram, U-Bahn, S-Bahn oder Regionalbahn, am Loop5 führt kein Weg vorbei.</string>
+    <string name="directions3"><b>U- und S-Bahnhof Alexanderplatz</b>\nU-Bahn: U2, U8, U5\nS-Bahnlinien: S3, S5, S7 und S75\nStraßenbahnlinien: M2, M4, M5, M6\nBuslinien: 100, M48, 200, 248\nRegionalbahnen: RE1, RE2, RE7 und RB14\nFernvehrkehrszüge: Vogtland-Express (Berlin–Plauen) und Harz-Berlin-Express (Berlin–Magdeburg–Halberstadt–Thale/Vienenburg) </string>
+
+    <!-- Centre Rules -->
+    <string name="centreRule1">Die Benutzung von Fahrrädern, Skateboards, Inlineskates oder Rollschuhen ist nicht gestattet.</string>
+    <string name="centreRule2">Rauchen ist im Loop5 verboten. (Berliner Senat, Nichtraucherschutz- gesetz zum 01.01.2008)</string>
+    <string name="centreRule3">Das Mitführen von Tieren ist nicht gestattet. Blindenhunde sind von dieser Regelung ausgeschlossen.</string>
+    <string name="centreRule4">Das Fotografieren und Filmen des Centres ist verboten.</string>
+    <string name="centreRule5">Der Verzehr alkoholischer Getränke ist nur in den Gastronomiebereichen gestattet.</string>
+    <string name="centreRule6">Beschädigung oder zweckwidrige Nutzung von Centre Eigentum wird mit Schadensersatzforderungen und Hausverbot geahndet. Das Besprühen und Beschmutzen von Bauteilen wird strafrechtlich verfolgt.</string>
+    <string name="centreRule7">Zu Ihrer Sicherheit wird das Loop5 durch Sicherheitskräfte und Videokameras überwacht. Bei Fragen oder Problemen wenden Sie sich bitte an das Centre Management: 030 269 340-0.</string>
+    <string name="centreRule8">Achten Sie bitte auf Ihre Wertgegenstände. Das Loop5 übernimmt keine Haftung bei Diebstahl.</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="mall_color">#007fb3</color>
+    <color name="contact_color">#007fb3</color>
+    <color name="store_detail_color">#ffffffff</color>
+</resources>

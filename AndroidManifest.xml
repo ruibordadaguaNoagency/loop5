@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.rd.sonae.loop5"
+          android:versionCode="1"
+          android:versionName="1.0">
+    <uses-sdk
+            android:minSdkVersion="8"
+            android:targetSdkVersion="16"/>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-feature android:name="android.hardware.CAMERA" android:required="false" />
+
+
+    <application
+            android:name=".Loop5"
+            android:label="@string/app_name"
+            android:icon="@drawable/icon_app">
+
+        <activity android:name="com.rd.sonae.activity.ACSplash"
+                  android:label="@string/app_name"
+                  android:theme="@android:style/Theme.NoTitleBar"
+                  android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity
+                android:name="com.rd.sonae.activity.ACMain"
+                android:theme="@android:style/Theme.NoTitleBar"
+                android:screenOrientation="portrait"/>
+
+        <activity
+                android:name="com.rd.sonae.activity.ACFeatured"
+                android:screenOrientation="portrait"/>
+        <activity
+                android:name="com.rd.sonae.activity.ACMall"
+                android:screenOrientation="portrait"/>
+        <activity
+                android:name="com.rd.sonae.activity.ACSearch"
+                android:screenOrientation="portrait"/>
+        <activity
+                android:name="com.rd.sonae.activity.ACParking"
+                android:screenOrientation="portrait"/>
+        <activity
+                android:name="com.rd.sonae.activity.ACPromotions"
+                android:screenOrientation="portrait"/>
+        <!-- SVG-Android lib requires hardware acceleration off-->
+        <activity
+                android:name="com.rd.sonae.activity.ACMap"
+                android:screenOrientation="portrait" />
+        <activity
+                android:name="com.rd.sonae.activity.ACEvents"
+                android:screenOrientation="portrait"/>
+        <activity
+                android:name="com.rd.sonae.activity.ACFeedback"
+                android:screenOrientation="portrait"/>
+        <activity
+                android:name="com.rd.sonae.activity.ACGastronomy"
+                android:screenOrientation="portrait"/>
+        <activity
+                android:name="com.rd.sonae.activity.ACServices"
+                android:screenOrientation="portrait" />
+        <activity
+                android:name="com.rd.sonae.activity.ACVoucher"
+                android:screenOrientation="portrait"/>
+        <activity
+                android:name="com.rd.sonae.activity.ACSocial"
+                android:screenOrientation="portrait" />
+        <activity
+                android:name="com.rd.sonae.activity.ACTabBarCustomization"
+                android:screenOrientation="portrait" />
+
+        <activity
+                android:theme="@android:style/Theme.NoTitleBar"
+                android:name="com.rd.sonae.activity.ACFullScreenPhoto" />
+
+        <!-- Analytics Service -->
+        <service android:name="org.OpenUDID.OpenUDID_service">
+            <intent-filter>
+                <action android:name="org.OpenUDID.GETUDID" />
+            </intent-filter>
+        </service>
+    </application>
+</manifest>
