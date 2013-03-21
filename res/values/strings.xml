@@ -96,5 +96,9 @@
         lhnen auf 9 Etagen zur Verfügung.\n\nEinfahrtshöhe: 2,10m
     </string>
 
+    <!--Social media-->
+    <string name="likeOnFacebook">Klicken Sie auf den Facebook, Gefällt mir\'-Button des LOOP5</string>
+    <string name="shareApp">Teilen Sie die LOOP5 App</string>
+
 
 </resources>
