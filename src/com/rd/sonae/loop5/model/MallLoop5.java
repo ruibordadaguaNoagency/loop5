@@ -17,7 +17,7 @@ public class MallLoop5 extends Mall {
         welcomeHasVideo = false;
 
          /* Lost & Found */
-        lostFoundPhone = "+49 6151 667410";
+        lostFoundPhone = "06151-6674 640";
         lostFoundEmail = "customercareloop5@sonaesierra.com";
 
         /* Social Channels */
@@ -56,21 +56,15 @@ public class MallLoop5 extends Mall {
         /* Centre Rules */
         centreRules.add(new CentreRule(R.drawable.icon_centrerule_nosmoking, R.string.centreRuleNoSmoking));
         centreRules.add(new CentreRule(R.drawable.icon_centrerule_nobike, R.string.centreRuleNoBike));
+        centreRules.add(new CentreRule(R.drawable.icon_pocket, R.string.centreRulePocket));
         centreRules.add(new CentreRule(R.drawable.icon_centrerule_nodogs, R.string.centreRuleNoDogs));
+        centreRules.add(new CentreRule(R.drawable.icon_block_exits, R.string.centreRuleNoBlockExits));
         centreRules.add(new CentreRule(R.drawable.icon_centrerule_nocameras, R.string.centreRuleNoCameras));
         centreRules.add(new CentreRule(R.drawable.icon_centrerule_noalcohol, R.string.centreRuleNoAlcohol));
+        centreRules.add(new CentreRule(R.drawable.icon_no_public_entry, R.string.centreRuleNoPublicEntry));
+        centreRules.add(new CentreRule(R.drawable.icon_dangerous_goods, R.string.centreRuleNoDangerousGoods));
         centreRules.add(new CentreRule(R.drawable.icon_centrerule_novandalism, R.string.centreRuleNoVandalism));
-
-                /* Centre Rules
-
-        centreRules.add(new CentreRule(R.drawable.icon_centrerule_nobike, R.string.centreRuleNoBike));
-        centreRules.add(new CentreRule(R.drawable.icon_centrerule_nosmoking, R.string.centreRuleNoSmoking));
-        centreRules.add(new CentreRule(R.drawable.icon_centrerule_nodogs, R.string.centreRuleNoDogs));
-        centreRules.add(new CentreRule(R.drawable.icon_centrerule_nocameras, R.string.centreRuleNoCameras));
-        centreRules.add(new CentreRule(R.drawable.icon_centrerule_noalcohol, R.string.centreRuleNoAlcohol));
-        centreRules.add(new CentreRule(R.drawable.icon_centrerule_novandalism, R.string.centreRuleNoVandalism));
-        centreRules.add(new CentreRule(R.drawable.icon_centrerule_novandalism, R.string.centreRuleNoVandalism));
-        */
+        centreRules.add(new CentreRule(R.drawable.icon_survailance, R.string.centreRuleSurveilance));
 
         /* Available tabs and default order
          * Warning: Order matters
