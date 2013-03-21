@@ -3,45 +3,108 @@
     <string name="app_name">Loop5</string>
     <string name="mall_name">Loop5</string>
 
-        <!-- Services -->
-    <string name="servicesHeader">Im Loop5 stehen Ihnen diverse Services zur Verfügung, um Ihnen einen angenehmen Aufenthalt in unserem Haus zu gewährleisten:</string>
+    <!--Welcome -->
+    <string name="welcomeHeader">Herzlich Willkommen im LOOP5!</string>
+    <string name="welcomeDescription">Bei uns erleben Sie Einkaufen in einer ganz neuen Dimension.\n\nDie unzähligen
+        Einkaufsmöglichkeiten im LOOP5 lassen keinen Wunsch offen und auch die Freizeitangebote bieten sowohl Klein als
+        auch Groß spannende Unterhaltung. Tauchen Sie ein in die Welt der Fliegerei und genießen Sie Ihren Aufenthalt im
+        lichtdurchfluteten, klimatisierten LOOP5. Auf 4 Ebenen laden wir Sie zum Entspannen, Staunen und Erleben ein. In
+        175 Geschäften bieten Ihnen große Marken unterschiedlichster Branchen ein besonderes Einkaufserlebnis.
+        Kulinarische Highlights bieten vor, nach oder während des Shoppings die 25 Restaurants des LOOP5.\n\nEin
+        besonderer Pluspunkt des LOOP5 ist nicht zuletzt die Erreichbarkeit. Durch die zentrale Lage direkt an A5 und
+        B42 ist LOOP5 sowohl mit dem Auto als auch mit den öffentlichen Verkehrsmitteln bequem zu erreichen. Komfortabel
+        ist auch das Parken, denn das Parkhaus ist direkt mit dem Centre verbundenen. 3000 Parkplätze stehen Ihnen hier
+        kostenfrei zur Verfügung.\n\nWir freuen uns auf Sie!
+    </string>
+
+    <!--Directions -->
+    <string name="directions">Anfahrt</string>
+    <string name="directions1">Sie kommen mit dem Auto ins LOOP5? Dank 3.000 kostenfreier Parkplätze in unserem Parkhaus
+        gibt es keine Probleme bei der Parkplatzsuche.\n\nAutobahn A5: Ausfahrt Weiterstadt Nord/Süd / B42\nB42: Abfahrt
+        Weiterstadt Süd / Einkaufszentrum
+    </string>
+    <string name="directions2">Kommen Sie mit den öffentlichen Verkehrsmitteln, erreichen Sie uns mit den Linien:\n5506,
+        5513 &amp; 5515
+    </string>
+
+    <!-- Services -->
+    <string name="servicesHeader">Im Loop5 stehen Ihnen diverse Services zur Verfügung, um Ihnen einen angenehmen
+        Aufenthalt in unserem Haus zu gewährleisten:
+    </string>
     <string name="information">Loop5 Information</string>
-    <string name="informationDescription">Sie benötigen Informationen über die Geschäfte, Geschenkgutscheine oder möchten Anregungen und Tipps geben, dann besuchen Sie doch unsere Centre-Information in Ebene 0.</string>
+    <string name="informationDescription">Sie benötigen Informationen über die Geschäfte, Geschenkgutscheine oder
+        möchten Anregungen und Tipps geben, dann besuchen Sie doch unsere Kundeninformation im Untergeschoss. Diese ist
+        während der Centre Öffnungszeiten durchgehend geöffnet.
+    </string>
     <string name="pharmacy">Apotheke</string>
     <string name="pharmacyDescription">(Ebene 0)</string>
     <string name="diaperChanging">Babywickelraum</string>
-    <string name="diaperDescription">Im Wickelraum in der 2.Ebene befindet sich außerdem die Möglichkeit Ihr Baby zu stillen.\n(Ebene 1,2)</string>
-    <string name="wardrobe">Garderobe</string>
-    <string name="wardrobeDescription">Sie möchten entspannt einkaufen ohne Jacken, Mäntel, lästige Einkaufstaschen oder Reisegepäck?\nDann nutzen Sie unsere Centergarderobe.\nBekleidung  1,00 €\nTaschen  1,50 €\nKoffer / Reisetaschen  2,00 €\nim Erdgeschoss am Haupteingang\n(nur von Oktober bis März)</string>
+    <string name="diaperDescription">(Ebene 0,1)</string>
+    <string name="bottleWarmer">Baby Flaschenwärmer</string>
+    <string name="bottleWarmerDescription">(Ebene 0,1)</string>
     <string name="atm">Geldautomaten</string>
     <string name="atmDescription">(Ebenen -1, 0, 2)</string>
-    <string name="giftVouchers">Geschenkgutscheine</string>
-    <string name="giftVouchersDescription">Unsere Geschenkgutscheine erhalten Sie an der Kundeninformation im Erdgeschoss.</string>
-    <string name="giftWrapping">Geschenkverpackungsservice</string>
-    <string name="giftWrappingDescription">Schöner schenken mit NICI!\nNutzen Sie den Verpackungsservice von NICI in der 2.Etage direkt im NICI Shop. \nPapier oder Folienverpackungen erhalten Sie als NICI Kunde für 0,50 € oder als Fremdgeschenkverpackung für 2,50 €. \nSie möchten Ihr Geschenk außergewöhnlich verpacken? \nDann entscheiden Sie sich doch für eine Kugel-Verpackung mit Schleife, Konfetti und Flitter (NICI Kunden: 6,95 € und Fremdgeschenkverpackung 8,95 €) (2. Ebene) </string>
-    <string name="wlan">WLAN</string>
-    <string name="wlanDescription">(Ebene 2)</string>
-    <string name="childrenWC">Kindertoilette</string>
-    <string name="childrenWCDescription">(Ebene 1, 2)</string>
-    <string name="travelAgency">Reisebüros</string>
-    <string name="travelAgencyDescription">(Ebene 0, 2)</string>
-    <string name="infoStore">Berlin Infostore</string>
-    <string name="infoStoreDescription">(Ebene 0)</string>
-    <string name="dentist">Zahnarzt</string>
-    <string name="dentistDescription">(Ebene 3)</string>
+    <string name="giftVouchers">LOOP 5 Geschenkgutscheine</string>
+    <string name="giftVouchersDescription">Sie erhalten unsere Geschenkgutscheine in den Werten 10, 20 und 50 € an
+        unserer Kundeninformation im UG sowie an den beiden Gutscheinautomaten im EG.
+    </string>
 
-        <!-- Directions -->
-    <string name="directions1">Sie kommen mit dem Auto ins Loop5? Dank 1.600 Parkplätze in unserer Tiefgarage gibt es keine Probleme bei der Parkplatzsuche. Die Einfahrt zum Parkhaus finden Sie auf der Alexanderstraße.</string>
-    <string name="directions2">Kommen Sie mit den öffentlichen Verkehrsmitteln, haben Sie die Auswahl: Ob Bus, Tram, U-Bahn, S-Bahn oder Regionalbahn, am Loop5 führt kein Weg vorbei.</string>
-    <string name="directions3"><b>U- und S-Bahnhof Alexanderplatz</b>\nU-Bahn: U2, U8, U5\nS-Bahnlinien: S3, S5, S7 und S75\nStraßenbahnlinien: M2, M4, M5, M6\nBuslinien: 100, M48, 200, 248\nRegionalbahnen: RE1, RE2, RE7 und RB14\nFernvehrkehrszüge: Vogtland-Express (Berlin–Plauen) und Harz-Berlin-Express (Berlin–Magdeburg–Halberstadt–Thale/Vienenburg) </string>
+    <string name="childrenChair">Kinderstühle</string>
+    <string name="childrenChairDescription">(Ebene 1)</string>
+
+    <string name="childrenWC">Kindertoilette</string>
+    <string name="childrenWCDescription">(Ebene 0, 1)</string>
+
+    <string name="parking">Parkhaus</string>
+    <string name="parkingDescription">3.000 kostenfreie Parkplätze stehen Ihnen auf 9 Etagen zur Verfügung.</string>
+
+    <string name="travelAgency">Reisebüros</string>
+    <string name="travelAgencyDescription">(Ebene 0)</string>
+
+    <string name="whellChair">Rollstuhl- und Kinderbuggy Verleih</string>
+    <string name="whellChairDescription">(Ebene -1 an der Kundeninformation)</string>
+    <string name="lockers">Schließfächer</string>
+    <string name="lockersDescription">(Ebene -1 (Food Court) &amp; Ebene -1)</string>
+    <string name="toiletsBarrierFree">WCs mit Barriere freiem Zugang</string>
+    <string name="toiletsBarrierFreeDescription">(Ebene -1,0,1)</string>
+
+    <string name="wlan">WLAN</string>
+    <string name="wlanDescription">Ein Teil der angebotenen Services ist kostenpflichtig.</string>
 
     <!-- Centre Rules -->
-    <string name="centreRule1">Die Benutzung von Fahrrädern, Skateboards, Inlineskates oder Rollschuhen ist nicht gestattet.</string>
-    <string name="centreRule2">Rauchen ist im Loop5 verboten. (Berliner Senat, Nichtraucherschutz- gesetz zum 01.01.2008)</string>
-    <string name="centreRule3">Das Mitführen von Tieren ist nicht gestattet. Blindenhunde sind von dieser Regelung ausgeschlossen.</string>
-    <string name="centreRule4">Das Fotografieren und Filmen des Centres ist verboten.</string>
-    <string name="centreRule5">Der Verzehr alkoholischer Getränke ist nur in den Gastronomiebereichen gestattet.</string>
-    <string name="centreRule6">Beschädigung oder zweckwidrige Nutzung von Centre Eigentum wird mit Schadensersatzforderungen und Hausverbot geahndet. Das Besprühen und Beschmutzen von Bauteilen wird strafrechtlich verfolgt.</string>
-    <string name="centreRule7">Zu Ihrer Sicherheit wird das Loop5 durch Sicherheitskräfte und Videokameras überwacht. Bei Fragen oder Problemen wenden Sie sich bitte an das Centre Management: 030 269 340-0.</string>
-    <string name="centreRule8">Achten Sie bitte auf Ihre Wertgegenstände. Das Loop5 übernimmt keine Haftung bei Diebstahl.</string>
+    <string name="centreRuleNoSmoking">Rauchen ist im Loop5 verboten. (Berliner Senat, Nichtraucherschutz- gesetz zum
+        01.01.2008)
+    </string>
+    <string name="centreRuleNoBike">Die Benutzung von Fahrrädern, Skateboards, Inlineskates oder Rollschuhen ist nicht
+        gestattet.
+    </string>
+    <string name="centreRuleNoDogs">Das Mitführen von Tieren ist nicht gestattet. Blindenhunde sind von dieser Regelung
+        ausgeschlossen.
+    </string>
+    <string name="centreRuleNoCameras">Das Fotografieren und Filmen des Centres ist verboten.</string>
+    <string name="centreRuleNoAlcohol">Der Verzehr alkoholischer Getränke ist nur in den Gastronomiebereichen
+        gestattet.
+    </string>
+    <string name="centreRuleNoVandalism">Beschädigung oder zweckwidrige Nutzung von Centre Eigentum wird mit
+        Schadensersatzforderungen und Hausverbot geahndet. Das Besprühen und Beschmutzen von Bauteilen wird
+        strafrechtlich verfolgt.
+    </string>
+    <string name="centreRuleSurveilance">Zu Ihrer Sicherheit wird das Loop5 durch Sicherheitskräfte und Videokameras
+        überwacht. Bei Fragen oder Problemen wenden Sie sich bitte an das Centre Management: 030 269 340-0.
+    </string>
+
+    <string name="centreRule8">Achten Sie bitte auf Ihre Wertgegenstände. Das Loop5 übernimmt keine Haftung bei
+        Diebstahl.
+    </string>
+    <string name="centreRule9">Beschädigung oder zweckwidrige Nutzung von Centre Eigentum wird mit
+        Schadensersatzforderungen und Hausverbot geahndet. Das Besprühen und Beschmutzen von Bauteilen wird
+        strafrechtlich verfolgt.
+    </string>
+    <string name="centreRule10">Zu Ihrer Sicherheit wird das Loop5 durch Sicherheitskräfte und Videokameras überwacht.
+        Bei Fragen oder Problemen wenden Sie sich bitte an das Centre Management: 030 269 340-0.
+    </string>
+    <string name="centreRule11">Achten Sie bitte auf Ihre Wertgegenstände. Das Loop5 übernimmt keine Haftung bei
+        Diebstahl.
+    </string>
+
 </resources>

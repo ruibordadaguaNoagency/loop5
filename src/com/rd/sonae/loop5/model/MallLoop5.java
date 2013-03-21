@@ -16,7 +16,7 @@ public class MallLoop5 extends Mall {
         // Welcome screen has video or image?
         welcomeHasVideo = false;
 
-        /* Lost & Found */
+         /* Lost & Found */
         lostFoundPhone = "+49 6151 667410";
         lostFoundEmail = "customercareloop5@sonaesierra.com";
 
@@ -33,32 +33,44 @@ public class MallLoop5 extends Mall {
 
         /* Services Menu Items */
         services.add(new Service(R.drawable.icon_mall_info, R.string.information, R.string.informationDescription));
+
         services.add(new Service(R.drawable.icon_pharmacy, R.string.pharmacy, R.string.pharmacyDescription));
         services.add(new Service(R.drawable.icon_childcare, R.string.diaperChanging, R.string.diaperDescription));
-        services.add(new Service(R.drawable.icon_wardrobe, R.string.wardrobe, R.string.wardrobeDescription));
         services.add(new Service(R.drawable.icon_atm, R.string.atm, R.string.atmDescription));
         services.add(new Service(R.drawable.icon_giftvouchers, R.string.giftVouchers, R.string.giftVouchersDescription));
-        services.add(new Service(R.drawable.icon_giftwrapping, R.string.giftWrapping, R.string.giftWrappingDescription));
-        services.add(new Service(R.drawable.icon_wlan, R.string.wlan, R.string.wlanDescription));
+        services.add(new Service(R.drawable.icon_bottle_warmer, R.string.bottleWarmer, R.string.bottleWarmerDescription));
+        services.add(new Service(R.drawable.icon_children_chair, R.string.childrenChair, R.string.childrenChairDescription));
         services.add(new Service(R.drawable.icon_childrenwc, R.string.childrenWC, R.string.childrenWCDescription));
+
+        services.add(new Service(R.drawable.parking, R.string.parking, R.string.parkingDescription));
         services.add(new Service(R.drawable.icon_travelagency, R.string.travelAgency, R.string.travelAgencyDescription));
-        services.add(new Service(R.drawable.icon_infostore, R.string.infoStore, R.string.infoStoreDescription));
-        services.add(new Service(R.drawable.icon_dentist, R.string.dentist, R.string.dentistDescription));
+        services.add(new Service(R.drawable.icon_whell_chair, R.string.whellChair, R.string.whellChairDescription));
+        services.add(new Service(R.drawable.icon_lockers, R.string.lockers, R.string.lockersDescription));
+        services.add(new Service(R.drawable.icon_toilets_barrier, R.string.toiletsBarrierFree, R.string.toiletsBarrierFreeDescription));
+        services.add(new Service(R.drawable.icon_wlan, R.string.wlan, R.string.wlanDescription));
 
         /* Directions */
         directions.add(R.string.directions1);
         directions.add(R.string.directions2);
-        directions.add(R.string.directions3);
 
         /* Centre Rules */
-        centreRules.add(new CentreRule(R.drawable.icon_centrerule_nobike, R.string.centreRule1));
-        centreRules.add(new CentreRule(R.drawable.icon_centrerule_nosmoking, R.string.centreRule2));
-        centreRules.add(new CentreRule(R.drawable.icon_centrerule_nodogs, R.string.centreRule3));
-        centreRules.add(new CentreRule(R.drawable.icon_centrerule_nocameras, R.string.centreRule4));
-        centreRules.add(new CentreRule(R.drawable.icon_centrerule_noalcohol, R.string.centreRule5));
-        centreRules.add(new CentreRule(R.drawable.icon_centrerule_novandalism, R.string.centreRule6));
-        centreRules.add(new CentreRule(R.drawable.icon_centrerule_surveilance, R.string.centreRule7));
-        centreRules.add(new CentreRule(R.drawable.icon_centrerule_surveilance, R.string.centreRule8));
+        centreRules.add(new CentreRule(R.drawable.icon_centrerule_nosmoking, R.string.centreRuleNoSmoking));
+        centreRules.add(new CentreRule(R.drawable.icon_centrerule_nobike, R.string.centreRuleNoBike));
+        centreRules.add(new CentreRule(R.drawable.icon_centrerule_nodogs, R.string.centreRuleNoDogs));
+        centreRules.add(new CentreRule(R.drawable.icon_centrerule_nocameras, R.string.centreRuleNoCameras));
+        centreRules.add(new CentreRule(R.drawable.icon_centrerule_noalcohol, R.string.centreRuleNoAlcohol));
+        centreRules.add(new CentreRule(R.drawable.icon_centrerule_novandalism, R.string.centreRuleNoVandalism));
+
+                /* Centre Rules
+
+        centreRules.add(new CentreRule(R.drawable.icon_centrerule_nobike, R.string.centreRuleNoBike));
+        centreRules.add(new CentreRule(R.drawable.icon_centrerule_nosmoking, R.string.centreRuleNoSmoking));
+        centreRules.add(new CentreRule(R.drawable.icon_centrerule_nodogs, R.string.centreRuleNoDogs));
+        centreRules.add(new CentreRule(R.drawable.icon_centrerule_nocameras, R.string.centreRuleNoCameras));
+        centreRules.add(new CentreRule(R.drawable.icon_centrerule_noalcohol, R.string.centreRuleNoAlcohol));
+        centreRules.add(new CentreRule(R.drawable.icon_centrerule_novandalism, R.string.centreRuleNoVandalism));
+        centreRules.add(new CentreRule(R.drawable.icon_centrerule_novandalism, R.string.centreRuleNoVandalism));
+        */
 
         /* Available tabs and default order
          * Warning: Order matters
