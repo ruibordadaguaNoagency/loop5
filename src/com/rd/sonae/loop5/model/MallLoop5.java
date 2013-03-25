@@ -98,7 +98,5 @@ public class MallLoop5 extends Mall {
         addMap(0, R.raw.level_g_0);
         addMap(1, R.raw.level_u_1);
         addMap(2, R.raw.level_u_2);
-        addMap(3, R.raw.level_u_3);
-        addMap(4, R.raw.level_u_4);
     }
 }
