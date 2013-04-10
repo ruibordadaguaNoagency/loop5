@@ -10,6 +10,7 @@
               android:orientation="vertical"
               android:background="@drawable/bg_white"
               android:padding="8dp">
+    <!-- android:background="@drawable/bg_white" -->
 
     <com.rd.sonae.ui.UIVideoView android:id="@+id/video"
                android:layout_width="match_parent"
