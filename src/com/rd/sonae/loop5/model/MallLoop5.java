@@ -20,6 +20,9 @@ public class MallLoop5 extends Mall {
         /* Voucher with links */
         mMallUID = MallUID.LOOP5;
 
+        //has only german
+        onlyOneLang = true;
+
 
          /* Lost & Found */
         lostFoundPhone = "06151-6674 640";
