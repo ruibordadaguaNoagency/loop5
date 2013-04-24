@@ -19,11 +19,9 @@
 
     <!--Voucher-->
     <string name="voucherHeader">SIE ERHALTEN DEN LOOP5 GUTSCHEIN:\n\nIM LOOP5</string>
-    <string name="voucherDescription">"Der ALEXA CENTERGUTSCHEIN ist das passende Geschenk für Ihre Lieben, wenn Sie
-        sich nicht entscheiden können oder Ihnen die Idee fehlt.\n\nEr ist in allen teilnehmenden Geschäften mit
-        Maestro-Kartensystem einlösbar.\n\nEntdecken Sie Langgesuchtes und Unerwartetes in 180 Shops auf 5
-        Ebenen.\n\nUnsere ALEXA Centergutscheine im Wert zwischen 10 € und 150 € Erhalten sie an der Kundeninformation
-        im Erdgeschoss.\n\nEine Bezahlung ist leider nur in BAR möglich."
+    <string name="voucherDescription">Die Gutscheine im Wert von 10€, 20€ oder 50€ (zzgl. 0,50€ Servicegebühr) sind an
+            unserer Kundeninformation per Bar-Zahlung sowie am Gutscheinautomaten einfach und bequem per EC-Karte
+            erhältlich.
     </string>
 
     <!--Welcome -->
