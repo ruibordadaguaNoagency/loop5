@@ -22,7 +22,7 @@ public class MallLoop5 extends Mall {
 
         //has only german
         onlyOneLang = true;
-        lang1 = "pt";
+        lang1 = "de";
 
 
          /* Lost & Found */
