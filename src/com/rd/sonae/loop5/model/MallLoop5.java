@@ -18,10 +18,11 @@ public class MallLoop5 extends Mall {
         welcomeHasVideo = false;
 
         /* Voucher with links */
-        mMallUID = MallUID.LOOP5;
+        mMallUID = MallUID.COLOMBO;
 
         //has only german
         onlyOneLang = true;
+        lang1 = "pt";
 
 
          /* Lost & Found */
