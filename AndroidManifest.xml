@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           package="com.rd.sonae.loop5"
           android:versionCode="1"
-          android:versionName="Build 7">
+          android:versionName="Build 8">
 
     <uses-sdk
             android:minSdkVersion="8"
