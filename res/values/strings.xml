@@ -16,6 +16,7 @@
     <string name="vouchers">Gutscheine</string>
     <string name="promotions">Promotions</string>
     <string name="more">Mehr</string>
+    <string name="contact">Kontakt</string>
 
     <!--Voucher-->
     <string name="voucherHeader">SIE ERHALTEN DEN LOOP5 GUTSCHEIN:\n\nIM LOOP5</string>
@@ -44,7 +45,7 @@
         gibt es keine Probleme bei der Parkplatzsuche.\n\nAutobahn A5: Ausfahrt Weiterstadt Nord/Süd / B42\nB42: Abfahrt
         Weiterstadt Süd / Einkaufszentrum
     </string>
-    <string name="directions2">Kommen Sie mit den öffentlichen Verkehrsmitteln, erreichen Sie uns mit den Linien:\n5506,
+    <string name="directions2">Kommen Sie mit den öffentlichen Verkehrsmitteln, erreichen Sie uns mit den Linien:\n5516,
         5513 &amp; 5515\n
     </string>
 
