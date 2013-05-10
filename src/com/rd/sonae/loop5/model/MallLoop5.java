@@ -4,6 +4,7 @@ import com.rd.sonae.R;
 import com.rd.sonae.fragment.*;
 import com.rd.sonae.loop5.theme.ThemeLoop5;
 import com.rd.sonae.model.Mall;
+import com.rd.sonae.model.MallUID;
 import com.rd.sonae.ui.UITabBar;
 
 public class MallLoop5 extends Mall {
@@ -15,6 +16,14 @@ public class MallLoop5 extends Mall {
 
         // Welcome screen has video or image?
         welcomeHasVideo = false;
+
+        /* Voucher with links */
+        mMallUID = MallUID.COLOMBO;
+
+        //has only german
+        onlyOneLang = true;
+        lang1 = "de";
+
 
          /* Lost & Found */
         lostFoundPhone = "06151-6674 640";
@@ -80,16 +89,16 @@ public class MallLoop5 extends Mall {
         defaultTabs.add(UITabBar.TabType.Mall);
         defaultTabs.add(UITabBar.TabType.Map);
         defaultTabs.add(UITabBar.TabType.Search);
-        defaultTabs.add(UITabBar.TabType.Promotions);
+        defaultTabs.add(UITabBar.TabType.FoodBeverages);
         defaultTabs.add(UITabBar.TabType.More);
 
         /* Hidden by Default */
         defaultTabs.add(UITabBar.TabType.Parking);
         defaultTabs.add(UITabBar.TabType.Events);
         defaultTabs.add(UITabBar.TabType.Feedback);
-        defaultTabs.add(UITabBar.TabType.FoodBeverages);
         defaultTabs.add(UITabBar.TabType.Services);
-        defaultTabs.add(UITabBar.TabType.Card);
+        //defaultTabs.add(UITabBar.TabType.Promotions);
+        defaultTabs.add(UITabBar.TabType.Card); // Voucher
         defaultTabs.add(UITabBar.TabType.Social);
 
 
