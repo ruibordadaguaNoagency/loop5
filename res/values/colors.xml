@@ -4,4 +4,6 @@
     <color name="contact_color">#007fb3</color>
     <color name="store_detail_color">#ffffffff</color>
     <color name="splash_screen_bg">#ffffffff</color>
+    <color name="store_text_color">#6F6F6F</color>
+    <color name="store_shadow_color">#000000</color>
 </resources>
