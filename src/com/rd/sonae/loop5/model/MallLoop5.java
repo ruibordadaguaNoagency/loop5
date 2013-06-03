@@ -10,7 +10,7 @@ import com.rd.sonae.ui.UITabBar;
 public class MallLoop5 extends Mall {
 
     public MallLoop5() {
-        super(2, R.string.mall_name, ThemeLoop5.class);
+        super(2, 0, R.string.mall_name, ThemeLoop5.class);
 
         address = "Loop 5, Gutenbergstraße 5, 64331 Weiterstadt";
 
