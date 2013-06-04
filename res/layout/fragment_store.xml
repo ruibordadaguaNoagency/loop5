@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true"
+            android:requiresFadingEdge="vertical"
+            android:fadingEdgeLength="20dp"
+            android:overScrollMode="never"
+            android:cacheColorHint="#555">
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <RelativeLayout
+                android:id="@+id/backDetailView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_store_details">
+
+            <TextView
+                    android:id="@+id/lbl_contact"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="15dp"
+                    android:textColor="@color/contact_color"
+                    android:textSize="15sp"
+                    android:text="@string/contact"/>
+
+            <TextView
+                    android:id="@+id/lbl_phone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/lbl_contact"
+                    android:layout_alignLeft="@id/lbl_contact"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#fff"
+                    android:textSize="13sp"
+                    android:text="@string/telephoneAbreviation"/>
+
+            <TextView
+                    android:id="@+id/lbl_phone_colon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@id/lbl_phone"
+                    android:layout_toRightOf="@id/lbl_phone"
+                    android:textColor="#fff"
+                    android:textSize="13sp"
+                    android:text=":"/>
+
+            <TextView
+                    android:id="@+id/lbl_phone_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@id/lbl_phone"
+                    android:layout_toRightOf="@id/lbl_phone_colon"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="@color/store_detail_color"
+                    android:textSize="13sp"/>
+
+            <TextView
+                    android:id="@+id/lbl_fax"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/lbl_phone"
+                    android:layout_alignLeft="@id/lbl_phone"
+                    android:textColor="#fff"
+                    android:textSize="13sp"
+                    android:text="@string/fax"/>
+
+            <TextView
+                    android:id="@+id/lbl_fax_colon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@id/lbl_fax"
+                    android:layout_toRightOf="@id/lbl_fax"
+                    android:textColor="#fff"
+                    android:textSize="13sp"
+                    android:text=":"/>
+
+            <TextView
+                    android:id="@+id/lbl_fax_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@id/lbl_fax"
+                    android:layout_toRightOf="@id/lbl_fax_colon"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="@color/store_detail_color"
+                    android:textSize="13sp"/>
+
+            <TextView
+                    android:id="@+id/lbl_email"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/lbl_fax"
+                    android:layout_alignLeft="@id/lbl_fax"
+                    android:textColor="#fff"
+                    android:textSize="13sp"
+                    android:text="@string/email"/>
+
+            <TextView
+                    android:id="@+id/lbl_email_colon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@id/lbl_email"
+                    android:layout_toRightOf="@id/lbl_email"
+                    android:textColor="#fff"
+                    android:textSize="13sp"
+                    android:text=":"/>
+
+            <TextView
+                    android:id="@+id/lbl_email_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@id/lbl_email"
+                    android:layout_toRightOf="@id/lbl_email_colon"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="@color/store_detail_color"
+                    android:textSize="13sp"
+                    android:linksClickable="true"/>
+
+            <TextView
+                    android:id="@+id/lbl_url"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/lbl_email"
+                    android:layout_alignLeft="@id/lbl_email"
+                    android:textColor="#fff"
+                    android:textSize="13sp"
+                    android:text="@string/url"/>
+
+            <TextView
+                    android:id="@+id/lbl_url_colon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@id/lbl_url"
+                    android:layout_toRightOf="@id/lbl_url"
+                    android:textColor="#fff"
+                    android:textSize="13sp"
+                    android:text=":"/>
+
+            <TextView
+                    android:id="@+id/lbl_url_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@id/lbl_url"
+                    android:layout_toRightOf="@id/lbl_url_colon"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="@color/store_detail_color"
+                    android:textSize="13sp"
+                    android:linksClickable="true"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+                android:id="@+id/frontDetailView"
+                android:layout_width="match_parent"
+                android:layout_height="123dp"
+                android:background="@drawable/bg_white">
+
+            <RelativeLayout
+                    android:id="@+id/logoContainer"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/bg_store_logo"
+                    android:layout_margin="10dp"
+                    android:padding="5dp">
+
+                <com.android.uikit.ui.UIImage
+                        android:id="@+id/logo"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="fitCenter"/>
+
+            </RelativeLayout>
+
+            <TextView
+                    android:id="@+id/lbl_storename"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/logoContainer"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#000"
+                    android:textSize="16sp"/>
+
+            <TextView
+                    android:id="@+id/lbl_categories"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/logoContainer"
+                    android:layout_below="@id/lbl_storename"
+                    android:textColor="#606060"
+                    android:textSize="12sp"/>
+
+            <TextView
+                    android:id="@+id/lbl_storenr"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/logoContainer"
+                    android:layout_below="@id/lbl_categories"
+                    android:textColor="#606060"
+                    android:textSize="12sp"
+                    android:text="@string/store_number"/>
+
+            <TextView
+                    android:id="@+id/lbl_storenr_colon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/lbl_storenr"
+                    android:layout_below="@id/lbl_categories"
+                    android:textColor="#606060"
+                    android:textSize="12sp"
+                    android:text=":"/>
+
+            <TextView
+                    android:id="@+id/lbl_storenr_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/lbl_storenr_colon"
+                    android:layout_below="@id/lbl_categories"
+                    android:layout_marginLeft="3dp"
+                    android:textColor="#606060"
+                    android:textSize="12sp"/>
+
+            <TextView
+                    android:id="@+id/lbl_floor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@id/lbl_storenr"
+                    android:layout_below="@id/lbl_storenr"
+                    android:textColor="#606060"
+                    android:textSize="12sp"
+                    android:text="@string/floor"/>
+
+            <TextView
+                    android:id="@+id/lbl_floor_colon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/lbl_floor"
+                    android:layout_alignBaseline="@id/lbl_floor"
+                    android:textColor="#606060"
+                    android:textSize="12sp"
+                    android:text=":"/>
+
+            <TextView
+                    android:id="@+id/lbl_floor_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/lbl_floor_colon"
+                    android:layout_alignBaseline="@id/lbl_floor"
+                    android:layout_marginLeft="3dp"
+                    android:textColor="#606060"
+                    android:textSize="12sp"/>
+
+            <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_below="@id/lbl_floor"
+                    android:layout_alignLeft="@id/lbl_floor"
+                    android:layout_marginTop="3dp">
+
+                <ImageButton
+                        android:id="@+id/btn_map"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginRight="10dp"
+                        android:padding="5dp"
+                        android:background="@drawable/btn_simple"
+                        android:src="@drawable/icon_directions"/>
+
+                <ImageButton
+                        android:id="@+id/btn_phone"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/btn_simple"
+                        android:src="@drawable/icon_phone"/>
+
+                <ImageButton
+                        android:id="@+id/btn_email"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/btn_simple"
+                        android:src="@drawable/icon_email"/>
+
+            </LinearLayout>
+
+            <ImageView
+                    android:id="@+id/arrow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/icon_arrow_horizontal"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="10dp"/>
+        </RelativeLayout>
+
+        <LinearLayout
+                android:id="@+id/contentContainer"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/frontDetailView"
+                android:orientation="vertical"
+                android:background="@drawable/bg_white">
+
+            <View
+                    android:id="@+id/separator_contacts"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dip"
+                    android:background="@drawable/gradient_dark_to_light_gray"/>
+
+            <TextView
+                    android:id="@+id/lbl_storedescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:textColor="#606060"
+                    android:textSize="13sp"
+                    android:lineSpacingExtra="2sp"/>
+
+            <View
+                    android:id="@+id/separator_description"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dip"
+                    android:background="@drawable/gradient_dark_to_light_gray"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</ScrollView>
