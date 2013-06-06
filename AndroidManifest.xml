@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           package="com.rd.sonae.loop5"
           android:versionCode="1"
-          android:versionName="Build 12">
+          android:versionName="Build 13">
 
     <uses-sdk
             android:minSdkVersion="8"
@@ -83,11 +83,5 @@
                 android:theme="@android:style/Theme.NoTitleBar"
                 android:name="com.rd.sonae.activity.ACFullScreenPhoto"/>
 
-        <!-- Analytics Service -->
-        <service android:name="org.OpenUDID.OpenUDID_service">
-            <intent-filter>
-                <action android:name="org.OpenUDID.GETUDID"/>
-            </intent-filter>
-        </service>
     </application>
 </manifest>
