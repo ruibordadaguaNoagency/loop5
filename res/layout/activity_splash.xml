@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/splash_screen_bg">
+
+    <com.android.uikit.ui.UIImage
+            android:id="@+id/bg_splash"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bg_splash"/>
+
+    <ImageView
+            android:id="@+id/logoSonaeSierra"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logo_sonaesierra"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="30dp"/>
+
+    <ImageView
+            android:id="@+id/logoUnionBank"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logo_unionbank"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@id/logoSonaeSierra"
+            android:layout_marginBottom="10dp"/>
+
+    <TextView
+            android:id="@+id/progressLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/logoUnionBank"
+            android:layout_marginBottom="10dp"
+            android:layout_centerHorizontal="true"
+            android:text="@string/loadingInfo"
+            android:textSize="12sp"
+            android:visibility="gone"/>
+
+    <ProgressBar
+            android:id="@+id/progressIndicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/progressLabel"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="5dp"
+            style="@android:style/Widget.ProgressBar.Small"/>
+
+</RelativeLayout>
