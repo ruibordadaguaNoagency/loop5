@@ -21,8 +21,8 @@
     <!--Voucher-->
     <string name="voucherHeader">SIE ERHALTEN DEN LOOP5 GUTSCHEIN:\n\nIM LOOP5</string>
     <string name="voucherDescription">Die Gutscheine im Wert von 10€, 20€ oder 50€ (zzgl. 0,50€ Servicegebühr) sind an
-            unserer Kundeninformation per Bar-Zahlung sowie am Gutscheinautomaten einfach und bequem per EC-Karte
-            erhältlich.
+        unserer Kundeninformation per Bar-Zahlung sowie am Gutscheinautomaten einfach und bequem per EC-Karte
+        erhältlich.
     </string>
 
     <!--Welcome -->
@@ -89,7 +89,7 @@
     <string name="toiletsBarrierFree">WCs mit Barriere freiem Zugang</string>
     <string name="toiletsBarrierFreeDescription">(Ebene -1,0,1)</string>
     <string name="wlan">WLAN</string>
-    <string name="wlanDescription">Ein Teil der angebotenen Services ist kostenpflichtig.</string>
+    <string name="wlanDescription">Kostenlos</string>
 
     <!-- Centre Rules -->
     <string name="centreRuleNoSmoking">Rauchen ist im LOOP5 verboten. Rauchen gefährdet Ihre Gesundheit</string>
