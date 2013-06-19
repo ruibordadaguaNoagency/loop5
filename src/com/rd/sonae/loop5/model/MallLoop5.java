@@ -58,6 +58,11 @@ public class MallLoop5 extends Mall {
         services.add(new Service(R.drawable.icon_toilets_barrier, R.string.toiletsBarrierFree, R.string.toiletsBarrierFreeDescription));
         services.add(new Service(R.drawable.icon_wlan, R.string.wlan, R.string.wlanDescription));
 
+        services.add(new Service(R.drawable.icon_park_handicap, R.string.parkHandicap, R.string.parkHandicapDescription));
+        services.add(new Service(R.drawable.icon_park_women, R.string.parkWomen, R.string.parkWomenDescription));
+        services.add(new Service(R.drawable.icon_park_family, R.string.parkFamily, R.string.parkFamilyDescription));
+
+
         /* Directions */
         directions.add(R.string.directions1);
         directions.add(R.string.directions2);

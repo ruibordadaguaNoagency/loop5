@@ -46,7 +46,7 @@
         Weiterstadt Süd / Einkaufszentrum
     </string>
     <string name="directions2">Kommen Sie mit den öffentlichen Verkehrsmitteln, erreichen Sie uns mit den Linien:\n5516,
-        5513, 5515 &amp; 675\n
+        5513, 5515, 675\n
     </string>
 
     <!-- Services -->
@@ -91,6 +91,13 @@
     <string name="wlan">WLAN</string>
     <string name="wlanDescription">Kostenlos</string>
 
+    <string name="parkHandicap">Behindertenparkplätze</string>
+    <string name="parkHandicapDescription">(Parkhaus)</string>
+    <string name="parkWomen">Frauenparkplätze</string>
+    <string name="parkWomenDescription">(Parkhaus)</string>
+    <string name="parkFamily">Mutter-Kind-Parkplätze</string>
+    <string name="parkFamilyDescription">(Parkhaus)</string>
+
     <!-- Centre Rules -->
     <string name="centreRuleNoSmoking">Rauchen ist im LOOP5 verboten. Rauchen gefährdet Ihre Gesundheit</string>
     <string name="centreRuleNoBike">Skateboards, Inlineskates, Fahrräder oder Rollschuhe zu benutzen</string>
@@ -112,9 +119,11 @@
     </string>
 
     <!-- Parking -->
-    <string name="fees">Parken</string>
-    <string name="feesContent">\nDas Parken im direkt angeschlossenen Parkplatz ist kostenfrei!\n3.000 Parkplätze stehen
-        lhnen auf 9 Etagen zur Verfügung.\n\nEinfahrtshöhe: 2,10m\n
+    <string name="fees">Parken\n</string>
+    <string name="feesContent">Das Parken im direkt angeschlossenen Parkhaus ist kostenfrei! Mehr als 3.000 Parkplätze
+        stehen Ihnen auf 9 Etagen zur Verfügung.\n\nAuf
+        allen Etagen finden Sie Frauenparkplätze, Behindertenparkplätze und Mutter-Kind-Parkplätze, jeweils in der Nähe
+        der Aufzüge.\n\nEinfahrtshöhe: 2,10m
     </string>
 
     <!--Social media-->
