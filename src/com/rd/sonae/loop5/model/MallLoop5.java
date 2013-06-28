@@ -3,6 +3,7 @@ package com.rd.sonae.loop5.model;
 import com.rd.sonae.R;
 import com.rd.sonae.fragment.*;
 import com.rd.sonae.loop5.theme.ThemeLoop5;
+import com.rd.sonae.model.DirectionsType;
 import com.rd.sonae.model.Mall;
 import com.rd.sonae.model.MallUID;
 import com.rd.sonae.ui.UITabBar;
@@ -18,7 +19,7 @@ public class MallLoop5 extends Mall {
         welcomeHasVideo = false;
 
         /* Voucher with links */
-        mMallUID = MallUID.COLOMBO;
+        mMallUID = MallUID.LOOP5;
 
         //has only german
         onlyOneLang = true;
@@ -62,8 +63,8 @@ public class MallLoop5 extends Mall {
 
 
         /* Directions */
-        directions.add(R.string.directions1);
-        directions.add(R.string.directions2);
+        directions.add(new DirectionsType(R.string.directions1, true));
+        directions.add(new DirectionsType(R.string.directions2, true));
 
         /* Centre Rules */
         centreRules.add(new CentreRule(R.drawable.icon_centrerule_nosmoking, R.string.centreRuleNoSmoking));

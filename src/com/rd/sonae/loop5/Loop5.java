@@ -17,16 +17,15 @@ public class Loop5 extends App {
 
         helper = new DatabaseHelper(getApplicationContext(), databaseName);
         settings = new Settings(getApplicationContext(), settingsName, "de", mall);
-        getString(R.string.information);
     }
 
     @Override
-    public Settings getSettings(){
+    public Settings getSettings() {
         return settings;
     }
 
     @Override
-    public DatabaseHelper getHelper(){
+    public DatabaseHelper getHelper() {
         return helper;
     }
 }
