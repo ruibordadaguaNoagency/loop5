@@ -45,22 +45,20 @@ public class MallLoop5 extends Mall {
 
         services.add(new Service(R.drawable.icon_pharmacy, R.string.pharmacy, R.string.pharmacyDescription));
         services.add(new Service(R.drawable.icon_childcare, R.string.diaperChanging, R.string.diaperDescription));
-        services.add(new Service(R.drawable.icon_atm, R.string.atm, R.string.atmDescription));
-        services.add(new Service(R.drawable.icon_giftvouchers, R.string.giftVouchers, R.string.giftVouchersDescription));
         services.add(new Service(R.drawable.icon_bottle_warmer, R.string.bottleWarmer, R.string.bottleWarmerDescription));
+        services.add(new Service(R.drawable.icon_park_handicap, R.string.parkHandicap, R.string.parkHandicapDescription));
+        services.add(new Service(R.drawable.icon_park_women, R.string.parkWomen, R.string.parkWomenDescription));
+        services.add(new Service(R.drawable.icon_atm, R.string.atm, R.string.atmDescription));
         services.add(new Service(R.drawable.icon_children_chair, R.string.childrenChair, R.string.childrenChairDescription));
         services.add(new Service(R.drawable.icon_childrenwc, R.string.childrenWC, R.string.childrenWCDescription));
-
+        services.add(new Service(R.drawable.icon_giftvouchers, R.string.giftVouchers, R.string.giftVouchersDescription));
+        services.add(new Service(R.drawable.icon_park_family, R.string.parkFamily, R.string.parkFamilyDescription));
         services.add(new Service(R.drawable.parking, R.string.parking, R.string.parkingDescription));
         services.add(new Service(R.drawable.icon_travelagency, R.string.travelAgency, R.string.travelAgencyDescription));
         services.add(new Service(R.drawable.icon_whell_chair, R.string.whellChair, R.string.whellChairDescription));
         services.add(new Service(R.drawable.icon_lockers, R.string.lockers, R.string.lockersDescription));
         services.add(new Service(R.drawable.icon_toilets_barrier, R.string.toiletsBarrierFree, R.string.toiletsBarrierFreeDescription));
         services.add(new Service(R.drawable.icon_wlan, R.string.wlan, R.string.wlanDescription));
-
-        services.add(new Service(R.drawable.icon_park_handicap, R.string.parkHandicap, R.string.parkHandicapDescription));
-        services.add(new Service(R.drawable.icon_park_women, R.string.parkWomen, R.string.parkWomenDescription));
-        services.add(new Service(R.drawable.icon_park_family, R.string.parkFamily, R.string.parkFamilyDescription));
 
 
         /* Directions */
