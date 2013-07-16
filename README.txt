@@ -1,10 +1,3 @@
-To have tabs in proper position:
-
-
-Edit file : com.rd.sonae.ui.UITabBar
-
-and replace with
-
         Featured(ACFeatured.class),
         Mall(R.drawable.icon_mall_inactive, R.drawable.icon_mall_active, R.drawable.icon_mall, R.string.mall_name, ACMall.class),
         Promotions(R.drawable.icon_promotions_inactive, R.drawable.icon_promotions_active, R.drawable.icon_promotions, R.string.promotions, ACPromotions.class),
