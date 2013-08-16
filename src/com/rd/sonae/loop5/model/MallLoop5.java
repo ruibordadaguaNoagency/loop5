@@ -16,7 +16,8 @@ public class MallLoop5 extends Mall {
         address = "Loop 5, Gutenbergstraße 5, 64331 Weiterstadt";
 
         // Welcome screen has video or image?
-        welcomeHasVideo = false;
+        welcomeHasVideo = true;
+        videoURL = "http://www.rd-agency.com/work/sonae_app/ios/loop5/video_promo_loop5_2pass.mp4";
 
         /* Voucher with links */
         mMallUID = MallUID.LOOP5;
