@@ -17,6 +17,7 @@ public class MallLoop5 extends Mall {
 
         // Welcome screen has video or image?
         welcomeHasVideo = true;
+        mIsDev = false;
         videoURL = "http://www.rd-agency.com/work/sonae_app/ios/loop5/video_promo_loop5_2pass.mp4";
 
         /* Voucher with links */
