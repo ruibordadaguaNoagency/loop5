@@ -2,16 +2,16 @@ package com.rd.sonae.loop5.model;
 
 import com.rd.sonae.R;
 import com.rd.sonae.fragment.*;
-import com.rd.sonae.loop5.theme.ThemeLoop5;
 import com.rd.sonae.model.DirectionsType;
 import com.rd.sonae.model.Mall;
 import com.rd.sonae.model.MallUID;
 import com.rd.sonae.ui.UITabBar;
+import com.rd.sonae.utils.Constants;
 
 public class MallLoop5 extends Mall {
 
     public MallLoop5() {
-        super(2, 0, R.string.mall_name, ThemeLoop5.class);
+        super(2, 0, R.string.mall_name);
 
         address = "Loop 5, Gutenbergstraße 5, 64331 Weiterstadt";
 
@@ -25,7 +25,7 @@ public class MallLoop5 extends Mall {
 
         //has only german
         onlyOneLang = true;
-        lang1 = "de";
+        lang1 = Constants.LANG_DE;
 
 
          /* Lost & Found */
