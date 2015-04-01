@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Loop5</string>
+    <string name="mall_name">Loop5</string>
+
+    <!--submenu titles-->
+    <string name="parking">Parken</string>
+    <string name="map">Karte</string>
+    <string name="search">Suchen</string>
+    <string name="events">Events</string>
+    <string name="feedback">Feedback</string>
+    <string name="gastronomy">Gastronomie</string>
+    <string name="services">Service</string>
+    <string name="voucher">Voucher</string>
+    <string name="social">Socialmedia</string>
+    <string name="vouchers">Gutscheine</string>
+    <string name="promotions">Promotions</string>
+    <string name="more">Mehr</string>
+    <string name="contact">Kontakt</string>
+
+    <!--Voucher-->
+    <string name="voucherHeader">SIE ERHALTEN DEN LOOP5 GUTSCHEIN:\n\nIM LOOP5</string>
+    <string name="voucherDescription">Die Gutscheine im Wert von 10€, 20€ oder 50€ (zzgl. 0,50€ Servicegebühr) sind an
+        unserer Kundeninformation per Bar-Zahlung sowie am Gutscheinautomaten einfach und bequem per EC-Karte
+        erhältlich.
+    </string>
+
+    <!--Welcome -->
+    <string name="welcomeHeader">Herzlich Willkommen im LOOP5!</string>
+    <string name="welcomeDescription">Bei uns erleben Sie Einkaufen in einer ganz neuen Dimension.\n\nDie unzähligen
+        Einkaufsmöglichkeiten im LOOP5 lassen keinen Wunsch offen und auch die Freizeitangebote bieten sowohl Klein als
+        auch Groß spannende Unterhaltung. Tauchen Sie ein in die Welt der Fliegerei und genießen Sie Ihren Aufenthalt im
+        lichtdurchfluteten, klimatisierten LOOP5. Auf 4 Ebenen laden wir Sie zum Entspannen, Staunen und Erleben ein. In
+        175 Geschäften bieten Ihnen große Marken unterschiedlichster Branchen ein besonderes Einkaufserlebnis.
+        Kulinarische Highlights bieten vor, nach oder während des Shoppings die 25 Restaurants des LOOP5.\n\nEin
+        besonderer Pluspunkt des LOOP5 ist nicht zuletzt die Erreichbarkeit. Durch die zentrale Lage direkt an A5 und
+        B42 ist LOOP5 sowohl mit dem Auto als auch mit den öffentlichen Verkehrsmitteln bequem zu erreichen. Komfortabel
+        ist auch das Parken, denn das Parkhaus ist direkt mit dem Centre verbundenen. 3000 Parkplätze stehen Ihnen hier
+        kostenfrei zur Verfügung.\n\nWir freuen uns auf Sie!
+    </string>
+
+    <!--Directions -->
+    <string name="directions">Anfahrt</string>
+    <string name="directions1">Sie kommen mit dem Auto ins LOOP5? Dank 3.000 kostenfreier Parkplätze in unserem Parkhaus
+        gibt es keine Probleme bei der Parkplatzsuche.\n\nAutobahn A5: Ausfahrt Weiterstadt Nord/Süd / B42\nB42: Abfahrt
+        Weiterstadt Süd / Einkaufszentrum
+    </string>
+    <string name="directions2">Kommen Sie mit den öffentlichen Verkehrsmitteln, erreichen Sie uns mit den Linien:\n5516,
+        5513, 5515, 675\n
+    </string>
+
+    <!-- Services -->
+    <string name="servicesHeader">Im Loop5 stehen Ihnen diverse Services zur Verfügung, um Ihnen einen angenehmen
+        Aufenthalt in unserem Haus zu gewährleisten:
+    </string>
+    <string name="information">Loop5 Information</string>
+    <string name="informationDescription">Sie benötigen Informationen über die Geschäfte, Geschenkgutscheine oder
+        möchten Anregungen und Tipps geben, dann besuchen Sie doch unsere Kundeninformation im Untergeschoss. Diese ist
+        während der Centre Öffnungszeiten durchgehend geöffnet.
+    </string>
+    <string name="pharmacy">Apotheke</string>
+    <string name="pharmacyDescription">(Ebene 0)</string>
+    <string name="diaperChanging">Babywickelraum</string>
+    <string name="diaperDescription">(Ebene 0,1)</string>
+    <string name="bottleWarmer">Baby Flaschenwärmer</string>
+    <string name="bottleWarmerDescription">(Ebene 0,1)</string>
+    <string name="atm">Geldautomaten</string>
+    <string name="atmDescription">(Ebenen -1, 0, 2)</string>
+    <string name="giftVouchers">LOOP 5 Geschenkgutscheine</string>
+    <string name="giftVouchersDescription">Sie erhalten unsere Geschenkgutscheine in den Werten 10, 20 und 50 € an
+        unserer Kundeninformation im UG sowie an den beiden Gutscheinautomaten im EG.
+    </string>
+
+    <string name="childrenChair">Kinderstühle</string>
+    <string name="childrenChairDescription">(Ebene 1)</string>
+
+    <string name="childrenWC">Kindertoilette</string>
+    <string name="childrenWCDescription">(Ebene 0, 1)</string>
+
+    <string name="parkingDescription">3.000 kostenfreie Parkplätze stehen Ihnen auf 9 Etagen zur Verfügung.</string>
+
+    <string name="travelAgency">Reisebüros</string>
+    <string name="travelAgencyDescription">(Ebene 0)</string>
+
+    <string name="whellChair">Rollstuhl- und Kinderbuggy Verleih</string>
+    <string name="whellChairDescription">(Ebene -1 an der Kundeninformation)</string>
+    <string name="lockers">Schließfächer</string>
+    <string name="lockersDescription">(Ebene -1 (Food Court) &amp; Ebene -1)</string>
+    <string name="toiletsBarrierFree">WCs mit Barriere freiem Zugang</string>
+    <string name="toiletsBarrierFreeDescription">(Ebene -1,0,1)</string>
+    <string name="wlan">WLAN</string>
+    <string name="wlanDescription">Kostenlos</string>
+
+    <string name="parkHandicap">Behindertenparkplätze</string>
+    <string name="parkHandicapDescription">(Parkhaus)</string>
+    <string name="parkWomen">Frauenparkplätze</string>
+    <string name="parkWomenDescription">(Parkhaus)</string>
+    <string name="parkFamily">Mutter-Kind-Parkplätze</string>
+    <string name="parkFamilyDescription">(Parkhaus)</string>
+
+    <!-- Centre Rules -->
+    <string name="centreRuleNoSmoking">Rauchen ist im LOOP5 verboten. Rauchen gefährdet Ihre Gesundheit</string>
+    <string name="centreRuleNoBike">Skateboards, Inlineskates, Fahrräder oder Rollschuhe zu benutzen</string>
+    <string name="centreRulePocket">Taschen unbeaufsichtigt zu lassen</string>
+    <string name="centreRuleNoDogs">Tiere mitzuführen.Blindenhunde und Behindertenführhunde sind von dieser Regel
+        ausgenommen
+    </string>
+    <string name="centreRuleNoBlockExits">Die Notausgänge zu blockieren.</string>
+    <string name="centreRuleNoCameras">Zu filmen oder zu fotografieren</string>
+    <string name="centreRuleNoAlcohol">Übermäßig viel Alkohol oder Drogen zu konsumieren</string>
+    <string name="centreRuleNoPublicEntry">Nicht-öffentliche Bereiche ohne Genehmigung zu betreten</string>
+    <string name="centreRuleNoDangerousGoods">Das Centre mit als gefährlich eingestuften Gegenständen zu betreten (z.B.
+        Schusswaffen, entflammbare Materialien)
+    </string>
+    <string name="centreRuleNoVandalism">Sich ordnungswidrig zu verhalten, Werbung zu verteilen, Spenden zu sammeln, zu
+        betteln oder sonstig störend gegenüber den Kunden zu verhalten
+    </string>
+    <string name="centreRuleSurveilance">Helme zu tragen, das LOOP5 mit freiem Oberkörper oder barfüßig zu betreten
+    </string>
+
+    <!-- Parking -->
+    <string name="fees">Parken\n</string>
+    <string name="feesContent">Das Parken im direkt angeschlossenen Parkhaus ist kostenfrei! Mehr als 3.000 Parkplätze
+        stehen Ihnen auf 9 Etagen zur Verfügung.\n\nAuf
+        allen Etagen finden Sie Frauenparkplätze, Behindertenparkplätze und Mutter-Kind-Parkplätze, jeweils in der Nähe
+        der Aufzüge.\n\nEinfahrtshöhe: 2,10m
+    </string>
+
+    <!--Social media-->
+    <string name="likeOnFacebook">Klicken Sie auf den Facebook, Gefällt mir\'-Button des LOOP5</string>
+    <string name="shareApp">Teilen Sie die LOOP5 App</string>
+
+
+</resources>

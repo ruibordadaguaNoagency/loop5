@@ -14,5 +14,4 @@ public class Loop5 extends App {
         Settings.setLocaleDefault(this,Constants.LANG_DE);
         mMall = new MallLoop5();
     }
-
 }
