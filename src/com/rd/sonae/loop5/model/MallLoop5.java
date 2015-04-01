@@ -27,6 +27,7 @@ public class MallLoop5 extends Mall {
         onlyOneLang = true;
         lang1 = Constants.LANG_DE;
 
+        mHasFb = false;
 
          /* Lost & Found */
         lostFoundPhone = "06151-6674 640";
@@ -110,9 +111,9 @@ public class MallLoop5 extends Mall {
 
 
         /* Map Floors */
-        addMap(-1, R.raw.level_l_1);
-        addMap(0, R.raw.level_g_0);
-        addMap(1, R.raw.level_u_1);
-        addMap(2, R.raw.level_u_2);
+        addMap(-1, R.raw.level_l_1, "-1");
+        addMap(0, R.raw.level_g_0, "0");
+        addMap(1, R.raw.level_u_1, "1");
+        addMap(2, R.raw.level_u_2, "2");
     }
 }
